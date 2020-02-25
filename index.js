@@ -20,9 +20,9 @@ function nowServing(katzDeliLine){
 function currentLine(katzDeliLine){
   if(katzDeliLine.length){
     
-    var 
+    var numberAndName = [];
     for(var i = 0; i< katzDeliLine.length; i++){
-     
+     numberAndName.push(`${i+1}. ${katzDeliLine[i]}`);
     }
     return `The line is currently: katzDeliLine[i]`;
   }else{
