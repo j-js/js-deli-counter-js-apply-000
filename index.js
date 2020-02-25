@@ -10,6 +10,7 @@ function nowServing(katzDeliLine){
   if(katzDeliLine.length){
     var now;
     now = katzDeliLine.shift();
+    console.log(now);
     return now;
     
   }else{
